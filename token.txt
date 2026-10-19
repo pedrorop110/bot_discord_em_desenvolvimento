@@ -1,0 +1,18 @@
+MTU2MDc1MzY1ODAxMjkwMTQ3OA.GHovRD.drBjIQt4Q6nQFNi9nKlPIXtG175LGh6phWik5c
+================ GUIA discord.py ================
+
+intents = Informa ao Discord quais tipos de eventos o bot deseja receber.
+    |- intents é um objeto que reúne configurações sobre os eventos que o bot pode receber.
+    |- Algumas intents privilegiadas também precisam ser ativadas no Discord Developer Portal.
+
+async - É uma palavra-chave do Python usada para definir uma função assíncrona.
+    |-Permite que a função utilize await.
+    |- Ajuda o programa a lidar com operações que precisam esperar, como enviar mensagens pela API do Discord, sem bloquear outras tarefas que podem avançar nesse intervalo.
+
+ctx - É uma abreviação de context (contexto), ele representa o contexto em que um comando foi executado.
+    |- ctx.author
+    |- ctx.channel
+    |- guild - servidor em que o comando foi executado; pode ser None em mensagens privadas
+    |- send()
+    |- reply() entre outros...
+
