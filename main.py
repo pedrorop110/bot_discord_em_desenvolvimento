@@ -3,8 +3,7 @@ from discord.ext import commands
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=".", intents=intents)
-negronomo = "1560753658012901478"
-ralibut = "1560753658012901478"
+
 @bot.event
 async def on_ready():
     print("Bot inicializado.")
@@ -43,4 +42,4 @@ async def clear(ctx:commands.Context, quantidade: int):
     await ctx.channel.purge(limit=quantidade + 1)
 #==============================================
 
-bot.run("MTU2MDc1MzY1ODAxMjkwMTQ3OA.G-ZQX1.5Wu1Ktl3sGsEp7bC2uXsx9LHR_NL9yPY7TBS6Q")
+bot.run("token")
